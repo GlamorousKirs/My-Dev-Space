@@ -1,2 +1,11 @@
-# My-Dev-Space
-A dedicated space for my hands-on learning and experimentation with a variety of software development concepts/features. Each branch represents a project or learning focus.
+### Some git commands
+```
+// Remove any existing Git version control history in a project folder.
+
+rmdir /s /q .git
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin <new-repo-link>
+git push origin master
+```
